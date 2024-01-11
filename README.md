@@ -1,0 +1,2 @@
+# wqu-piotroski-f-score
+ 
