@@ -2,12 +2,15 @@
 ## Project Description
 This research aims to explore the applicability of the Piotroski F-Score in American Depositary Receipts or ADR (i.e., non-US stocks with home exchange outside the U.S. but are being traded on U.S. exchanges).
 ## Contents
-**ADR-piotroski-F-score.ipynb** contains the code.
+1. **Code: ADR-piotroski-F-score.ipynb** contains the Python script.
+2. **Folder: \adr-universe** contains the list of ADRs from adr.com.
+3. **Folder: \output-files** contains the results from each step for historical reference.
 ## Logic (Pseudo-code)
 1. Identify the list of foreign ADRs and extract it.
 2. Retrieve financial data using YahooQuery.
 3. Transform data and compute Piotroski F-Scores.
-4. Calculate the Donchian Channel.
-5. Implement Weekly Momentum Trading Strategy (Benchmark).
-6. Implement Weekly Momentum Trading Strategy with Piotroski F-Score.
-7. Compare the impact of using Piotroski F-Score.
+   - Transform data to prepare for F-score calculation.
+   - Calculate F-scores.
+5. Measure the performance of High-Fscore ADR stocks VS Index VS Low-F-score stock returns.
+   - Set up an ADR stock index by region and compute for the stock returns.
+   - Compare the performances against the Index and Low-F-score stock returns.
