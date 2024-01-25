@@ -6,8 +6,9 @@ This research aims to explore the applicability of the Piotroski F-Score in Amer
 ## Logic (Pseudo-code)
 1. Identify the list of foreign ADRs and extract it.
 2. Retrieve financial data using YahooQuery.
-3. Transform data and compute Piotroski F-Scores.
-4. Calculate the Donchian Channel.
-5. Implement Weekly Momentum Trading Strategy (Benchmark).
-6. Implement Weekly Momentum Trading Strategy with Piotroski F-Score.
-7. Compare the impact of using Piotroski F-Score.
+3. Transform data and compute Piotroski F-Scores
+  3.1 Transform data to prepare for F-score calculation
+  3.2 Calculate F-scores
+4. Measure the performance of High-Fscore ADR stocks VS Index VS Low-F-score stock returns
+  4.1 Set up an ADR stock index by region and compute for the stock returns
+  4.2 Compare the performances against the Index and Low-F-score stock returns
