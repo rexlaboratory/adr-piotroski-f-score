@@ -3,8 +3,8 @@
 This research aims to explore the applicability of the Piotroski F-Score in American Depositary Receipts or ADR (i.e., non-US stocks with home exchange outside the U.S. but are being traded on U.S. exchanges).
 ## Contents
 **code: ADR-piotroski-F-score.ipynb** contains the Python script.
-**folder: \adr-universe** contains the list of ADRs from adr.com.
-**folder: \output-files** contains the results from each step for historical reference.
+\ **folder: \adr-universe** contains the list of ADRs from adr.com.
+\ **folder: \output-files** contains the results from each step for historical reference.
 ## Logic (Pseudo-code)
 1. Identify the list of foreign ADRs and extract it.
 2. Retrieve financial data using YahooQuery.
