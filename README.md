@@ -1,4 +1,4 @@
-# Application of Piotroski F-score in American Depositary Receipt (ADR)
+# Application of Piotroski F-score in American Depositary Receipts (ADR)
 ## Project Description
 This research aims to explore the applicability of the Piotroski F-Score in American Depositary Receipts or ADR (i.e., non-US stocks with home exchange outside the U.S. but are being traded on U.S. exchanges).
 ## Contents
