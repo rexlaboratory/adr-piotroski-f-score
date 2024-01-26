@@ -11,6 +11,6 @@ This research aims to explore the applicability of the Piotroski F-Score in Amer
 3. Transform data and compute Piotroski F-Scores.
    - Transform data to prepare for F-score calculation.
    - Calculate F-scores.
-5. Measure the performance of High-Fscore ADR stocks VS Index VS Low-F-score stock returns.
+4. Measure the performance of High-Fscore ADR stocks VS Index VS Low-F-score stocks.
    - Set up an ADR stock index by region and compute for the stock returns.
-   - Compare the performances against the Index and Low-F-score stock returns.
+   - Compare the performance of High-Fscore ADR stocks against the Index and Low-F-score stocks.
