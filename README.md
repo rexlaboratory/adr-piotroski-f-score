@@ -11,6 +11,7 @@ This research aims to explore the applicability of the Piotroski F-Score in Amer
 3. Transform data and compute Piotroski F-Scores.
    - Transform data to prepare for F-score calculation.
    - Calculate F-scores.
-4. Measure the performance of High-F-score ADR stocks VS Index VS Low-F-score stocks.
-   - Set up an ADR stock index by region and compute for the stock returns.
-   - Compare the performance of High-F-score ADR stocks against the Index and Low-F-score stocks.
+4. Measure the performance of the Piotroski F-score classifier in predicting 'winner' and 'loser' stocks.
+   - Benchmark: Set up an ADR stock index by market group (i.e., benchmark).
+   - Return-based metrics: Compare the return rates of High-F-score ADR stocks against the Benchmark and Low-F-score stocks.
+   - Precision metrics: Compute the precision of the F-score in predicting 'winner' stocks; compute the precision of the F-score in predicting 'loser' stocks.
