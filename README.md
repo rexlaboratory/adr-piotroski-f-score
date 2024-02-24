@@ -1,6 +1,6 @@
 # Application of Piotroski F-score in American Depositary Receipts (ADR)
 ## Project Description
-This research aims to explore the applicability of the Piotroski F-Score in American Depositary Receipts or ADR (i.e., non-US stocks with home exchange outside the U.S. but are being traded on U.S. exchanges).
+This research aims to test the efficacy of the Piotroski F-Score classifier in predicting 'winner' and 'loser' stocks. The stock universe used is a basket of American Depositary Receipts or ADR (i.e., non-US stocks with home exchange outside the U.S. but are being traded on U.S. exchanges).
 ## Contents
 1. **Code: ADR-piotroski-F-score.ipynb** contains the Python script.
 2. **Folder: \adr-universe** contains the list of ADRs from adr.com.
