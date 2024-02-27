@@ -5,6 +5,8 @@ This research aims to test the efficacy of the Piotroski F-Score classifier in p
 1. **Code: adr-piotroski-f-score-script.ipynb** contains the Python script.
 2. **Folder: \adr-universe** contains the list of ADRs from adr.com.
 3. **Folder: \output-files** contains the results from major steps in the code for historical reference.
+4. **Folder: \output-files\01-18-2024** contains the results from using January 18, 2024 data for historical reference and reproducibility.
+5. **Folder: \solution-design** houses the Solution Design Document for this project.
 ## Logic (Pseudo-code)
 1. Identify the list of foreign ADRs and extract it.
 2. Retrieve financial data using YahooQuery.
